@@ -275,3 +275,85 @@ li.menu-item:not(:last-child){
     background-color: var(--Dark-cyan);
 }
 
+.third-container
+{
+    text-align: left;
+    padding-bottom: 2rem;
+    
+}
+
+.third-container p
+{
+    letter-spacing: .04rem;
+    line-height: 160%;
+}
+
+.reward-container
+{
+    width: 90%;
+    margin: 1.6rem auto;
+    padding: 2rem;
+    border: 1px solid var(--ligth-gray);
+    border-radius: .8rem;
+}
+
+.reward-container>h3
+{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.reward-container>h4
+{
+    font-size: 1.6rem;
+    color: var(--Moderate-cyan);
+    margin-bottom: 1rem;
+}
+
+.reward-container>p
+{
+    font-size: 1.5rem;
+    color: var(--Dark-gray);   
+}
+
+.reward-container .value
+{
+    font-size: 3rem;
+    color: var(--Black);
+    font-weight: 700;
+}
+
+.number-container
+{
+    display: flex;
+    align-items: center;
+}
+
+.number-container p:nth-child(2)
+{
+    font-size: 1.6rem;
+    margin-left: .8rem;
+    color: var(--Dark-gray) 
+}
+
+.reward-container > button
+{
+    padding: 2rem 4rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+    background-color: var(--Moderate-cyan);
+    border-radius: 50rem;
+    border: transparent;
+    margin-top: 2rem;
+}
+
+.no-stock
+{
+    opacity: .4;
+}
+
+.no-stock>button
+{
+    background-color: var(--Dark-gray);
+}
